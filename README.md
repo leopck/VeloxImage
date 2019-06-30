@@ -1,7 +1,7 @@
 VeloxImage viewer
 ===========
 
-#Design considerations
+# Design considerations
 
 - [  ] Performance of the image viewer must be as fast as MangaMeeya
 - [  ] Capable of uncompression from compression types (e.g. zip, tar.gz, rar, 7z, ...)
@@ -10,13 +10,13 @@ VeloxImage viewer
 - [  ] Initial loading of images on first startup
 - [  ] Loading all images into RAM? Possible memory leak or lack of memory
 
-#Language consideration
+# Language consideration
 
 - [  ] Language needs to have image codec support
 - [  ] Language needs to have good graphics toolkit support
 - [  ] Language needs to be able to run on website
 
-#Vision
+# Vision
 
 - [  ] Websites that specializes in image loading would use this library
 - [  ] If user wants to save memory and disk, can re-encode all images and compression to more optimize codec (preferred for website hosting)
