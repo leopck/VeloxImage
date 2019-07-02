@@ -21,3 +21,7 @@ VeloxImage viewer
 - [  ] Websites that specializes in image loading would use this library
 - [  ] If user wants to save memory and disk, can re-encode all images and compression to more optimize codec (preferred for website hosting)
 - [  ] Website is client based, server only provides API for loading the compression file
+
+# Roadmap
+
+- [  ] Using WebAssembly instead of Javascript
