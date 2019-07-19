@@ -25,3 +25,26 @@ VeloxImage viewer
 # Roadmap
 
 - [  ] Using WebAssembly instead of Javascript
+
+# Objective
+
+- This image viewer is not designed to be codec-rich
+- This image viewer is designed with performance only in mind
+- GUI is a tough question:
+-- Cross OS agnostic
+-- Cross platform agnostic (RPi)
+-- Should this work for web browser as well? (WebASM)
+- This image viewer incorporates all latest technologies
+-- WebASM for web browser native
+-- Lossless codec with highest performance (WebP, AVIF)
+-- Compression technologies (7z?)
+
+By the end of this project, hopefully the software would be a software that is able to run in high performance on Desktop to Smartphone to Web browser. You shuold also be able to store high quality images in lowest compression size while enjoying highest performance for manga or high quality image viewing.
+
+# Codec in consideration
+
+- AVIF
+- PNG
+- WebP
+
+# Compression in consideration
